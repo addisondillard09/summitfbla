@@ -1,4 +1,4 @@
-# Summit — Website Template
+# TEMPLATE — Website Template
 
 A minimal, black and white website template: plain HTML, CSS, and a little vanilla JS. No build step. Open `index.html` in a browser and it works.
 
@@ -13,8 +13,7 @@ js/main.js       Mobile menu, header scroll border, footer year
 
 ## Customizing
 
-- **Brand name:** search for `Summit` in both HTML files and replace it.
-- **Email:** replace `hello@example.com` in both HTML files.
+- **Brand name:** search for `TEMPLATE` in both HTML files and replace it.
 - **Fonts:** Space Grotesk (headings) and Inter (body) load from Google Fonts in each page's `<head>`. To swap them, change that link and the `--font-heading` / `--font-body` tokens in `css/styles.css`.
 - **Colors and spacing:** edit the tokens in `:root` at the top of `css/styles.css`.
 - **Navbar and footer:** these are duplicated in each HTML file. Keep them in sync when editing, and move `aria-current="page"` to the current page's nav link on any new page.
