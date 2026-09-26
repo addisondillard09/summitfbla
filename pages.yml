@@ -1,1 +1,17 @@
+# GitHub Pages site configuration
+# The deployment workflow is defined in .github/workflows/pages.yml.
 
+title: Summit FBLA
+description: Summit FBLA chapter website
+url: https://addisondillard09.github.io
+baseurl: /summitfbla
+
+# Keep the existing static HTML site unchanged when GitHub Pages builds it.
+plugins: []
+
+exclude:
+  - .github/
+  - .git/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
